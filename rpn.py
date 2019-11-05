@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import operator
+import readline
+from retrying import retry
 
 
 operators = {
@@ -27,6 +29,7 @@ def calculate(myarg):
         raise TypeError("Too many parameters")
     return stack.pop()
 
+@retry
 def main():
     while True:
         result = calculate(input("rpn calc> "))
