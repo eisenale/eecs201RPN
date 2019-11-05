@@ -8,4 +8,4 @@ install:
   - pip install retry
   - pip install retrying
 # command to run tests
-script: coverage.sh
+script: ./coverage.sh
