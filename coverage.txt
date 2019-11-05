@@ -16,3 +16,6 @@ rpn.py           24      5    79%   27, 31-33, 36
 test_rpn.py      17      0   100%
 -------------------------------------------
 TOTAL            41      5    88%
+Name    Stmts   Miss  Cover   Missing
+-------------------------------------
+No data to report.
