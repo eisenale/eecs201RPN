@@ -2,4 +2,5 @@
 coverage run test_rpn.py
 date >> coverage.txt
 coverage report -m >> coverage.txt
-git add coverage.txt
+coverage-badge -o coverage.svg
+git add coverage.txt coverage.svg
